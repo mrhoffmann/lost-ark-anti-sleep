@@ -27,3 +27,5 @@ To accomodate for this, you can always set the game resolution to your actual re
 - Say you have another 1080p screen on your right, you'd want then to write: "ToClickRight := Mon2Right - 2120"
 
 But I'd suggest you change the resolution of your game to match the resolution of your current primary screen resolution, or of course the other way around.
+
+In a future release where i have spent more than 10 minutes, i hope to have this automatically made.
