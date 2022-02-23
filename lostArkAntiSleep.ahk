@@ -3,7 +3,7 @@ Loop{
 	SysGet, Mon2, Monitor, 2 				;primary screen
 	ToClickLeft := 200					;at what position to make the first click, X-axis
 	TimesToLoop := 2					;how many times per loop to use the mouse, the larger the number, the larger the iteration before using the UI
-	ToClickRight := Mon2Right - 1224 			;you might want to tweak this depending on screen size, in my case: 1024 for my portrait screen and another 200 pixels.
+	ToClickRight := Mon2Right - 200 			;you might want to tweak this depending on screen size, in my case: 1024 for my portrait screen and another 200 pixels.
 	HalfWayTop := (Mon2Bottom / 2) - 250			;at what position is considered the middle of the screen, Y-axis
 	string := "uipwocln"					;what UI that can be opened
 
